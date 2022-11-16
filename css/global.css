@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body, input, textarea, button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+html{
+    scroll-behavior: smooth;
+ }
+
+ @media (max-width: 925px) {
+
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    html{
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 560px) {
+
+    html{
+        font-size: 40%;
+    }
+    
+}
