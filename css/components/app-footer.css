@@ -1,0 +1,38 @@
+.app-footer{
+    background-color: #00091d;
+    color: #b3b3b3;
+    padding: 1rem 0;
+}
+
+.footerInformation{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 2rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.5;
+    border-bottom: 2px solid #000718;
+}
+
+
+.footerInformation p{
+    line-height: 1.5;
+}
+
+.footerIcons{
+    display: flex;
+    gap: 0.25rem;
+}
+
+.footerCopyright{
+    display: flex;
+    padding: 1rem 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerTitle{
+    font-size: 1.125rem;
+    font-weight: normal;
+    text-align: center;
+}
