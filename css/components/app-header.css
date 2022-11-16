@@ -1,0 +1,51 @@
+.app-header{
+    background: linear-gradient(180deg, rgba(0, 209, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 44, 158, 0.2) 77.3%, rgba(0, 0, 0, 0.2) 100%), #000000;
+    background-color: rgba(0,0,0,.93);
+    padding: 0.5rem 2rem;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLeft{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.navLeft img{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+
+.navLeft h1{
+    font-size: 2rem;
+}
+
+.navRight{
+    display: flex;
+    gap: 1rem;
+}
+
+.navRight a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #FFF;
+    font-weight: 525;
+    padding: 0.3rem;
+    border-bottom: 2.5px solid transparent;
+    border-top: 2.5px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.navRight a:hover{
+    color: #F6F6F6;
+    border-bottom: 2.5px solid #FFF;
+    transform: scale(1.03);
+}
