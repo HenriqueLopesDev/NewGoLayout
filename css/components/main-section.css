@@ -1,0 +1,51 @@
+.main-section{
+    display: flex;
+    height: 33.125rem;
+    padding: 0 2rem;
+    border-bottom: 4px solid;
+}
+
+.main-section.-menu{
+    display: flex;
+    align-items: center;
+    background: url('../../assets/img/Background.png'), #000;
+    background-repeat: round;
+    height: 39.375rem;
+    border-color: #232221;
+}
+
+.main-section.-sobre{
+    flex-direction: column;
+    align-items: center;
+    background: #FAFAFA;
+    height: 100%;
+    border-bottom-color: #002585;
+    padding-bottom: 3rem;
+}
+
+.main-section.-produtos{
+    display: flex;
+    justify-content: center;
+    background: #1A1A1A;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-bottom-color: white;
+    padding-bottom: 3rem;
+}
+
+.main-section.-parceiros{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    border-color: #232221;
+}
+
+.main-section.-contatos{
+    display: flex;
+    flex-direction: column;
+    background: #FAFAFA;
+    color: #272121;
+    border-bottom-color: #002585;
+}
