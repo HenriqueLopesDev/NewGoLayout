@@ -1,0 +1,172 @@
+.mainTitle{
+    font-size: 3rem;
+    color: #FFF;
+    width: 28.125rem;
+    margin-left: 3rem;
+}
+
+.aboutContent{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.aboutContent img{
+    height: 50%;
+    width: 50%;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aboutText{
+    font-size: 1.375rem;
+    color: #574F4D;
+    font-weight: 600;
+}
+
+.values{
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.valueTitle{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #403937;
+}
+
+.valueContainer{
+    width: 250px;
+}
+
+.valueContent{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #574F4D;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.productInformation{
+    display: flex;
+    background: #312C2C;
+    gap: 1rem;
+    align-items: center;
+    color: #F2F2F2;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.-size{
+    font-size: 2.5rem;
+}
+
+.productsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.productInformationText h2{
+    font-size: 1.25rem;
+}
+
+.productInformationText p{
+    font-size: 1rem;
+}
+
+.-parceiros{
+    background-color: #00091d;
+}
+
+.section-title.-parceiros{
+    color: #f8f8f8;
+}
+
+.parceirosSubtitle{
+    color: #f8f8f8;
+    font-weight: 400;
+}
+
+.parceirosContainer{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    padding: 1rem;
+    background-color: #001033;
+    background-color: rgba(0,0,0,.15);
+    border-radius: 8px;
+}
+
+.parceirosContainer img{
+    width: 10rem;
+    transition: transform .5s;
+}
+
+.parceirosContainer img:hover{
+    transform: scale(1.15);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+}
+
+.contatoInfo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.contatoInfo span{
+    color: #272121;
+    font-size: 1rem;
+}
+
+.-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    background: #001033;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 6px;
+    transition: background .5s;
+    cursor: pointer;
+}
+
+.-icon:hover{
+    background: #00236e;
+}
+
+.informations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.map{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map iframe{
+    width: 21.875rem;
+    height: 15.625rem;
+    border: 2px solid #00236e;
+    border-radius: 5px;
+}
