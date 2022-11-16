@@ -1,0 +1,21 @@
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section-title.-sobre{
+    color: #272121;
+}
+
+.section-title.-produtos{
+    color: #F2F2F2;
+}
+
+.section-title.-contatos{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
